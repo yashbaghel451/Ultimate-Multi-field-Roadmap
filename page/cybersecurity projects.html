@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cybersecurity Projects — Step by Step</title>
+<link rel="stylesheet" href="../css/cybersecurityprojects.css">
+</head>
+<body>
+<header class="header">
+  <h1>Cybersecurity Projects — Step by Step</h1>
+  <p>Learn security by practicing real-world attacks & defenses</p>
+  <button class="themeBtn" onclick="toggleTheme()">🌙 Dark</button>
+</header>
+
+<main class="container">
+
+<!-- BEGINNER -->
+<section class="card">
+  <h2>Beginner Level Projects</h2>
+  <p>Perfect for understanding basic security concepts.</p>
+</section>
+
+<section class="card">
+  <h2>Password Strength Checker</h2>
+  <p>Check how strong a password is.</p>
+  <h3>Steps:</h3>
+  <ul>
+    <li>Understand password rules</li>
+    <li>Use regex in JavaScript</li>
+    <li>Display strength level</li>
+    <li>Warn weak passwords</li>
+  </ul>
+  <button class="demoBtn" data-demo="password">View Demo</button>
+</section>
+
+<section class="card">
+  <h2>Keylogger Simulation (Ethical)</h2>
+  <p>Understand how keyloggers work (for awareness).</p>
+  <h3>Steps:</h3>
+  <ul>
+    <li>Learn keyboard event handling</li>
+    <li>Capture keystrokes locally</li>
+    <li>Store logs securely</li>
+    <li>Study detection techniques</li>
+  </ul>
+  <button class="demoBtn" data-demo="keylogger">View Demo</button>
+</section>
+
+<!-- INTERMEDIATE -->
+<section class="card">
+  <h2>Intermediate Level Projects</h2>
+  <p>Hands-on ethical hacking & defense projects.</p>
+</section>
+
+<section class="card">
+  <h2>Phishing Awareness Website</h2>
+  <p>Educate users about phishing attacks.</p>
+  <h3>Steps:</h3>
+  <ul>
+    <li>Design fake vs real email pages</li>
+    <li>Explain red flags</li>
+    <li>Track user choices</li>
+    <li>Show awareness score</li>
+  </ul>
+  <button class="demoBtn" data-demo="phishing">View Demo</button>
+</section>
+
+<section class="card">
+  <h2>Vulnerability Scanner (Basic)</h2>
+  <p>Scan websites for common vulnerabilities.</p>
+  <h3>Steps:</h3>
+  <ul>
+    <li>Learn OWASP Top 10</li>
+    <li>Use Python / Node</li>
+    <li>Check headers & inputs</li>
+    <li>Generate security report</li>
+  </ul>
+  <button class="demoBtn" data-demo="scanner">View Demo</button>
+</section>
+
+<!-- ADVANCED -->
+<section class="card">
+  <h2>Advanced Level Projects</h2>
+  <p>Real-world cybersecurity & SOC style projects.</p>
+</section>
+
+<section class="card">
+  <h2>Intrusion Detection System</h2>
+  <p>Detect malicious activity in network traffic.</p>
+  <h3>Steps:</h3>
+  <ul>
+    <li>Study network packets</li>
+    <li>Analyze logs</li>
+    <li>Detect anomalies</li>
+    <li>Trigger alerts</li>
+  </ul>
+  <button class="demoBtn" data-demo="ids">View Demo</button>
+</section>
+
+<section class="card">
+  <h2>Secure Authentication System</h2>
+  <p>Implement strong login security.</p>
+  <h3>Steps:</h3>
+  <ul>
+    <li>Hash passwords (bcrypt)</li>
+    <li>Implement 2FA</li>
+    <li>Protect against brute force</li>
+    <li>Session management</li>
+  </ul>
+  <button class="demoBtn" data-demo="auth">View Demo</button>
+</section>
+
+<a class="btnBack" href="cybersecurity.html">
+  <i class="fa-solid fa-arrow-left"></i> ⬅Back to Roadmap
+</a>
+
+</main>
+
+<!-- MODAL -->
+<div id="demoModal">
+  <div class="modalContent">
+    <span class="closeBtn">✖</span>
+    <div id="demoContent"></div>
+  </div>
+</div>
+
+<script src="../js/cybersecurityprojects.js">
+
+</script>
+
+</body>
+</html>

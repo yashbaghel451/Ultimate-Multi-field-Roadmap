@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DevOps Projects — Step by Step</title>
+<link rel="stylesheet" href="../css/devopsprojects.css">
+
+</head>
+<body>
+<header class="header">
+  <h1>DevOps Projects — Step by Step</h1>
+  <p>Learn DevOps tools & automation by building real projects</p>
+  <button class="themeBtn" onclick="toggleTheme()">🌙 Dark</button>
+</header>
+
+<main class="container">
+
+<!-- Beginner Projects -->
+<section class="card">
+  <h2>Beginner Level Projects</h2>
+  <p>Start with basic automation, CI/CD pipelines and version control.</p>
+
+  <h3>1. GitHub Workflow Automation</h3>
+  <ul>
+    <li>Use GitHub Actions to automate build & test</li>
+    <li>Create simple CI for sample project</li>
+  </ul>
+  <button class="demoBtn" data-demo="githubWorkflow">View Demo</button>
+
+  <h3>2. Dockerize a Simple App</h3>
+  <ul>
+    <li>Learn Docker basics: Dockerfile, build image, run container</li>
+    <li>Deploy small web app using Docker</li>
+  </ul>
+  <button class="demoBtn" data-demo="dockerApp">View Demo</button>
+</section>
+
+<!-- Intermediate Projects -->
+<section class="card">
+  <h2>Intermediate Level Projects</h2>
+  <p>Integrate multiple tools & deploy apps automatically.</p>
+
+  <h3>1. CI/CD Pipeline with Jenkins</h3>
+  <ul>
+    <li>Setup Jenkins server</li>
+    <li>Create pipelines for build, test & deploy</li>
+  </ul>
+  <button class="demoBtn" data-demo="jenkinsPipeline">View Demo</button>
+
+  <h3>2. Kubernetes Deployment</h3>
+  <ul>
+    <li>Deploy Dockerized apps on K8s cluster</li>
+    <li>Understand pods, services, deployments</li>
+  </ul>
+  <button class="demoBtn" data-demo="k8sDeploy">View Demo</button>
+</section>
+
+<!-- Advanced Projects -->
+<section class="card">
+  <h2>Advanced Level Projects</h2>
+  <p>Complex automation & cloud-native projects.</p>
+
+  <h3>1. Infrastructure as Code (Terraform)</h3>
+  <ul>
+    <li>Provision cloud infrastructure using Terraform scripts</li>
+    <li>Integrate with AWS or Azure</li>
+  </ul>
+  <button class="demoBtn" data-demo="terraform">View Demo</button>
+
+  <h3>2. Monitoring & Logging System</h3>
+  <ul>
+    <li>Setup Prometheus + Grafana monitoring</li>
+    <li>Visualize logs and system metrics</li>
+  </ul>
+  <button class="demoBtn" data-demo="monitoring">View Demo</button>
+</section>
+
+<a class="btnBack" href="devops.html"><i class="fa-solid fa-arrow-left"></i>⬅Back to DevOps Roadmap</a>
+</main>
+
+<!-- Demo Modal -->
+<div id="demoModal">
+  <div class="modalContent">
+    <span class="closeBtn">✖</span>
+    <div id="demoContent"></div>
+  </div>
+</div>
+
+<script src="../js/devopsprojects.js">
+</script>
+</body>
+</html>

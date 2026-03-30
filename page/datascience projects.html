@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Science / AI Projects — Step by Step</title>
+<link rel="stylesheet" href="../css/datascienceprojects.css">
+
+</head>
+<body>
+<header class="header">
+  <h2>Data Science / AI Projects — Step by Step</h2>
+  <p>Learn by building real projects</p>
+  <button class="themeBtn" onclick="toggleTheme()">🌙 Dark</button>
+</header>
+
+<main class="container">
+
+<!-- Beginner Projects -->
+<section class="card">
+  <h2>Beginner Level Projects</h2>
+  <p>Start with small, manageable projects to get hands-on experience with Python, data analysis, and basic ML.</p>
+
+  <h3>1. Data Analysis with Python</h3>
+  <ul>
+    <li>Learn pandas, numpy for data manipulation</li>
+    <li>Visualize datasets with matplotlib/seaborn</li>
+    <li>Perform basic statistics and insights</li>
+  </ul>
+  <button class="demoBtn" data-demo="pythonData">View Demo</button>
+
+  <h3>2. Titanic Survival Prediction (ML)</h3>
+  <ul>
+    <li>Load dataset, handle missing data</li>
+    <li>Feature engineering</li>
+    <li>Train simple ML model (Logistic Regression)</li>
+    <li>Evaluate accuracy</li>
+  </ul>
+  <button class="demoBtn" data-demo="titanic">View Demo</button>
+</section>
+
+<!-- Intermediate Projects -->
+<section class="card">
+  <h2>Intermediate Level Projects</h2>
+  <p>Projects that combine data pipelines, ML modeling, and basic AI concepts.</p>
+
+  <h3>1. Stock Price Prediction</h3>
+  <ul>
+    <li>Collect historical stock data</li>
+    <li>Use LSTM/Time Series prediction models</li>
+    <li>Visualize predicted vs actual prices</li>
+  </ul>
+  <button class="demoBtn" data-demo="stock">View Demo</button>
+
+  <h3>2. Chatbot with NLP</h3>
+  <ul>
+    <li>Build basic chatbot using Python (NLTK / spaCy)</li>
+    <li>Implement intent recognition</li>
+    <li>Test conversation flow</li>
+  </ul>
+  <button class="demoBtn" data-demo="chatbot">View Demo</button>
+</section>
+
+<!-- Advanced Projects -->
+<section class="card">
+  <h2>Advanced Level Projects</h2>
+  <p>Complex AI and ML applications suitable for portfolios or job projects.</p>
+
+  <h3>1. Image Classification with Deep Learning</h3>
+  <ul>
+    <li>Use TensorFlow/Keras or PyTorch</li>
+    <li>Train CNN on dataset (CIFAR-10 / MNIST)</li>
+    <li>Evaluate model performance</li>
+  </ul>
+  <button class="demoBtn" data-demo="imageClass">View Demo</button>
+
+  <h3>2. Recommender System</h3>
+  <ul>
+    <li>Collaborative filtering / content-based filtering</li>
+    <li>Implement with Python & pandas</li>
+    <li>Deploy simple web interface for recommendations</li>
+  </ul>
+  <button class="demoBtn" data-demo="recommender">View Demo</button>
+</section>
+
+<a class="btnBack" href="datascience.html"><i class="fa-solid fa-arrow-left"></i>⬅Back to Data Science Roadmap</a>
+</main>
+
+<!-- Demo Modal -->
+<div id="demoModal">
+  <div class="modalContent">
+    <span class="closeBtn">✖</span>
+    <div id="demoContent"></div>
+  </div>
+</div>
+
+<script src="../js/datascienceprojects.js">
+
+</script>
+</body>
+</html>

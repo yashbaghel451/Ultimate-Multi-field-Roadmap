@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Blockchain & Web3 - Complete Guide</title>
+<link rel="stylesheet" href="../css/blockchain.css">
+
+</head>
+<body>
+<header class="header">
+  <h1>Blockchain & Web3 — Complete Guide</h1>
+  <p>Beginner → Developer → Builder path with chains, tools & dApps</p>
+  <button class="themeBtn" onclick="toggleTheme()">🌙 Dark</button>
+</header><main class="container">
+<section class="card">
+  <h2>Overview</h2>
+  <p class="small">Blockchain is a decentralized, immutable ledger technology that powers cryptocurrencies, smart contracts, and decentralized applications (dApps). Web3 extends the web by enabling user-owned identity, tokens, and permissionless apps.</p>
+</section>
+<section class="card">
+  <h3>Beginner (Foundations)</h3>
+  <ul>
+    <li>🔗 What is a blockchain: blocks, chains, consensus</li>
+    <li>🪙 Cryptocurrencies vs tokens: BTC, ETH, ERC-20</li>
+    <li>🔐 Wallets & keys: seed phrases, MetaMask, hardware wallets</li>
+    <li>🧾 Transactions & gas fees</li>
+    <li>Projects: Create a wallet, send a test transaction on testnet</li>
+  </ul>
+</section>
+<section class="card">
+  <h3>Intermediate (Development)</h3>
+  <ul>
+    <li>📝 Smart Contracts: Solidity basics, contract structure</li>
+    <li>🛠 Tooling: Hardhat, Truffle, Remix</li>
+    <li>🌐 Web3 Libraries: ethers.js, web3.js, wagmi</li>
+    <li>🧪 Testnets & local nodes: Goerli, Sepolia, Anvil</li>
+    <li>Projects: Build & deploy an ERC-20 token and simple dApp</li>
+  </ul>
+</section>
+<section class="card">
+  <h3>Advanced (Scaling & Security)</h3>
+  <ul>
+    <li>⚖️ Consensus & scaling: Layer-1 vs Layer-2 (Rollups, Plasma)</li>
+    <li>🛡 Security: audits, formal verification, common vulnerabilities (reentrancy)</li>
+    <li>🧩 Interoperability: bridges, cross-chain messaging</li>
+    <li>📈 Tokenomics & governance: DAOs, voting, treasury management</li>
+    <li>Projects: Build an NFT marketplace, create a DAO using governance tokens</li>
+  </ul>
+</section>
+<section class="card">
+  <h3>Recommended Tools & Resources</h3>
+  <ul>
+    <li>Docs & Specs: Solidity, EIP-20/ERC standards, Chain docs</li>
+    <li>Learn: CryptoZombies, OpenZeppelin tutorials, freeCodeCamp</li>
+    <li>Playgrounds: Remix, Hardhat local node, Alchemy, Infura</li>
+    <li>Security: OpenZeppelin contracts, MythX, Slither</li>
+  </ul>
+</section>
+<section class="card">
+  <h3>Roadmap Actions (Weekly Plan)</h3>
+  <ul>
+    <li>Weeks 1–2: Crypto fundamentals, wallets, testnets</li>
+    <li>Weeks 3–6: Solidity basics, deploy smart contracts on testnet</li>
+    <li>Weeks 7–10: dApp frontend, integrate with ethers.js & wallets</li>
+    <li>Weeks 11–14: Security auditing, Layer-2, tokenomics & DAO</li>
+  </ul>
+</section>
+<section class="card">
+  <h3>🔧 Example — Simple Solidity Contract</h3>
+  <div class="code-sample">// SPDX-License-Identifier: MIT pragma solidity ^0.8.19;contract SimpleStorage {
+    uint256 public value; function set(uint256 _v) public { value = _v; } function get() public view returns (uint256) {
+    return value; } }
+  </div>
+  <p class="small">Tip: deploy this with Remix or Hardhat on a testnet before integrating into a frontend.</p>
+  <a class="btn" href="web3-projects.html"><i class="fa-solid fa-network-wired"></i> View Web3 Projects</a>
+</section>
+<section class="card">
+  <h3>🎥 Free Web3 Lectures & Tutorials</h3>
+  <p class="small">Start learning with these free resources:</p>  <a href="https://www.youtube.com/watch?v=ipwxYa-F1uY" target="_blank" class="affiliate-btn" style="background:linear-gradient(90deg,#0ea5a6,#06b6d4)">
+    <i class="fa-brands fa-youtube"></i> freeCodeCamp - Solidity Tutorial
+  </a>  <a href="https://cryptozombies.io/" target="_blank" class="affiliate-btn" style="background:linear-gradient(90deg,#7c3aed,#06b6d4)">
+    <i class="fa-solid fa-gamepad"></i> CryptoZombies - Learn by building
+  </a>  <a href="https://www.youtube.com/@PatrickAlphaC" target="_blank" class="affiliate-btn" style="background:linear-gradient(90deg,#2563eb,#1d4ed8)">
+    <i class="fa-brands fa-youtube"></i> Patrick Collins - Web3 Dev
+  </a>
+</section>
+<section class="card">
+  <h3>🧾 Useful Links</h3>
+  <ul>
+    <li>MetaMask — wallet extension</li>
+    <li>OpenZeppelin — audited smart contract library</li>
+    <li>Alchemy & Infura — node providers for RPC access</li>
+  </ul>
+</section>
+<section class="card">
+  <h3>☁️ Projects Ideas</h3>
+  <p class="small">Build things like NFTs, token launchpads, on-chain games, DAO tooling, or a permissionless marketplace.</p>
+  <a class="btn" href="learning blockchain.html"><i class="fa-solid fa-arrow-right"></i> Learning paths</a>
+</section><a class="btnBack" href="../index.html"><i class="fa-solid fa-arrow-left"></i>⬅Back to Roadmaps</a>
+
+<!-- Affiliate / Course --><a href="https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/" target="_blank" class="affiliate-btn">
+   🚀 Learn Web3 – Udemy Course
+</a></main>
+<script src="../js/blockchain.js">
+</script>
+</body>
+</html>

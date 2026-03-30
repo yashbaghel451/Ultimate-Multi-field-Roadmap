@@ -1,0 +1,63 @@
+:root{
+  --bg:#f4f6f9; --text:#111827; --card:#fff;
+  --accent:#7c3aed; --muted:#6b7280; --shadow:rgba(0,0,0,0.1);
+}
+body.dark{
+  --bg:#0b1220; --text:#e6eef8; --card:#071022;
+  --accent:#a78bfa; --muted:#9ca3af; --shadow:rgba(0,0,0,0.6);
+}
+body{
+  margin:0; font-family:Inter,Arial;
+  background:var(--bg); color:var(--text); transition:.25s;
+}
+.header{
+  background:linear-gradient(90deg,var(--accent),#8b5cf6);
+  color:#fff; padding:18px; text-align:center; position:relative;
+}
+.header h1{margin:0;font-size:1.6rem;}
+.header p{margin:6px 0 0;}
+.themeBtn{
+  position:absolute; top:14px; right:14px;
+  padding:8px 12px; border-radius:999px;
+  border:none; background:#fff; cursor:pointer;
+}
+.container{max-width:1000px; margin:28px auto; padding:18px;}
+.card{
+  background:var(--card);
+  padding:18px; border-radius:12px;
+  box-shadow:0 12px 28px var(--shadow);
+  margin-bottom:18px;
+}
+.card h2{color:var(--accent); margin:0 0 8px;}
+.card h3{margin:10px 0 6px;}
+.card ul{margin-left:18px;}
+.demoBtn{
+  margin-top:10px;
+  padding:6px 14px;
+  border:none; border-radius:6px;
+  background:var(--accent); color:#fff;
+  cursor:pointer;
+}
+.btnBack{
+  display:inline-block; margin-top:16px;
+  padding:10px 16px; border-radius:999px;
+  background:linear-gradient(90deg,var(--accent),#8b5cf6);
+  color:#fff; text-decoration:none; font-weight:700;
+}
+
+/* Modal */
+#demoModal{
+  display:none; position:fixed; inset:0;
+  background:rgba(0,0,0,0.6);
+  justify-content:center; align-items:center;
+}
+.modalContent{
+  background:#fff; padding:20px;
+  border-radius:10px; max-width:600px;
+  width:90%; position:relative;
+}
+.closeBtn{
+  position:absolute; top:10px; right:14px;
+  cursor:pointer; font-size:18px;
+}
+.small{font-size:0.9rem;color:#555;}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Contact - Ultimate Multi-Field Roadmaps</title>
+<link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+<header class="header">
+  <h1>Contact Us</h1>
+  <p>We’d love to hear from you! Reach out with questions, feedback, or collaborations.</p>
+  <button class="toggle-btn" onclick="toggleTheme()">🌙 Dark</button>
+</header>
+
+<nav class="nav">
+  <a href="../index.html">Home</a>
+  <a href="about roadmap.html">About</a>
+  <a href="contact roadmap.html">Contact</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms roadmap.html">Terms & Conditions</a>
+</nav>
+
+<main class="container">
+  <div class="card">
+    <h2>Send us a Message</h2>
+    <form id="contact-form">
+      <label for="name">Your Name</label>
+      <input type="text" name="from_name"  placeholder="Enter your name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" name="from_email" placeholder="Enter your email" required>
+
+      <label for="message">Your Message</label>
+      <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="statusMsg" style="margin-top:10px;font-weight:bold;"></p>
+  </div>
+
+  
+</main>
+
+<footer class="footer">
+  © 2026 Ultimate Multi-Field Roadmaps — We are here to help
+</footer>
+<script src="../js/contact.js"></script>
+
+</body>
+</html>

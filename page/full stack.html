@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Full Stack Web Development - Guide</title>
+<link rel="stylesheet" href="../css/fullstack.css">
+
+</head>
+<body>
+  <header class="header">
+    <h1>Full Stack Web Development — Complete Guide</h1>
+    <p>Beginner → Intermediate → Advanced path with tools, projects & resources</p>
+    <button class="themeBtn" onclick="toggleTheme()">🌙 Dark</button>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Overview</h2>
+      <p class="small">Full Stack developers build both client and server parts of web applications — UI, business logic, databases and deployment.</p>
+    </section>
+
+    <section class="card">
+      <h3>Beginner (Foundations)</h3>
+      <ul>
+        <li><strong>HTML5:</strong> semantic tags, forms, accessibility (a11y)</li>
+        <li><strong>CSS3:</strong> Flexbox, Grid, responsive design, basics of animations</li>
+        <li><strong>JavaScript:</strong> ES6+, DOM, event handling, fetch, promises, async/await</li>
+        <li><strong>Tools:</strong> VS Code, browser DevTools, Git basics</li>
+        <li><strong>Projects:</strong> Static portfolio, responsive landing page, to-do app</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Intermediate (Apps & Frameworks)</h3>
+      <ul>
+        <li><strong>Frontend Framework:</strong> React (hooks, router), or Vue/Angular</li>
+        <li><strong>State Management:</strong> Context + hooks, Redux / Zustand</li>
+        <li><strong>TypeScript:</strong> static types for safer code</li>
+        <li><strong>Backend:</strong> Node.js + Express — REST API creation</li>
+        <li><strong>Databases:</strong> Relational (Postgres/MySQL) & NoSQL (MongoDB)</li>
+        <li><strong>Auth:</strong> JWT, password hashing (bcrypt)</li>
+        <li><strong>Projects:</strong> CRUD app with auth, small blog with comments</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Advanced (Scaling & Production)</h3>
+      <ul>
+        <li><strong>GraphQL:</strong> Apollo Server / Client</li>
+        <li><strong>Testing:</strong> Jest (unit), React Testing Library (UI), Cypress (E2E)</li>
+        <li><strong>Deployment:</strong> Docker, CI/CD (GitHub Actions), deploy to Vercel/Netlify + Heroku/AWS</li>
+        <li><strong>Performance & Security:</strong> caching, rate limiting, helmet, input validation</li>
+        <li><strong>Microservices:</strong> basics & when to adopt</li>
+        <li><strong>Projects:</strong> E-commerce app, SaaS MVP, realtime chat with websockets</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Recommended Tools & Resources</h3>
+      <ul>
+        <li>Docs: MDN Web Docs, React docs, Node docs</li>
+        <li>Free learning: freeCodeCamp, MDN, YouTube channels (Traversy Media, Fireship)</li>
+        <li>Courses/books: "You Don’t Know JS" (book series), "Full Stack Open" (free course)</li>
+        <li>Practice: build 10 small projects, publish on GitHub, deploy live</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Roadmap Actions (weekly plan example)</h3>
+      <ul>
+        <li>Weeks 1–4: HTML, CSS, JS basics + small projects</li>
+        <li>Weeks 5–8: React + state + one mid-size project</li>
+        <li>Weeks 9–12: Node + Database + REST API project</li>
+        <li>Weeks 13–16: Deploy, test, add CI, polish portfolio</li>
+      </ul>
+    </section>
+<section class="card">
+  <h3>🚀 Full Stack Projects</h3>
+  <p class="small">
+    💡 Start building real-world projects to strengthen your skills! Each project is designed to give you hands-on experience, boost your portfolio, and make you confident in full stack development. Don’t just learn — create!
+  </p>
+  <a class="btn" href="fullstack projects.html">
+    <i class="fa-solid fa-diagram-project"></i> View Full Stack Projects
+  </a>
+</section>
+    <!-- 🔹 Free Demo Lectures Section -->
+<section class="card">
+  <h3>🎥 Free Full Stack Lectures</h3>
+  <p class="small">Learn from top educators and channels for free. Choose any lecture below:</p>
+  
+  <!-- freeCodeCamp -->
+  <a href="https://www.youtube.com/watch?v=nu_pCVPKzTk" target="_blank" 
+     class="affiliate-btn" style="background:linear-gradient(90deg,#ff0000,#cc0000)">
+    <i class="fa-brands fa-youtube"></i> FreeCodeCamp Full Stack Crash Course
+  </a>
+  <p class="small">Complete 8-hour crash course covering HTML, CSS, JS, React, Node.js — perfect structured start.</p>
+
+  <!-- Apna College -->
+  <a href="https://www.youtube.com/@ApnaCollegeOfficial" target="_blank" 
+     class="affiliate-btn" style="background:linear-gradient(90deg,#e11d48,#be123c)">
+    <i class="fa-brands fa-youtube"></i> Apna College (Full Stack Playlist)
+  </a>
+  <p class="small">Beginner-friendly Hindi tutorials, explains coding concepts in simple way with projects.</p>
+
+  <!-- CodeWithHarry -->
+  <a href="https://www.youtube.com/@CodeWithHarry" target="_blank" 
+     class="affiliate-btn" style="background:linear-gradient(90deg,#2563eb,#1d4ed8)">
+    <i class="fa-brands fa-youtube"></i> CodeWithHarry (Web Dev Tutorials)
+  </a>
+  <p class="small">Best for quick learning in Hindi, short crash courses on HTML, CSS, JS, Django, React.</p>
+
+  <!-- Traversy Media -->
+  <a href="https://www.youtube.com/@TraversyMedia" target="_blank" 
+     class="affiliate-btn" style="background:linear-gradient(90deg,#10b981,#059669)">
+    <i class="fa-brands fa-youtube"></i> Traversy Media (Full Stack Projects)
+  </a>
+  <p class="small">International channel, great for practical projects like MERN stack apps & real-world tips.</p>
+
+  <!-- Love Babbar -->
+  <a href="https://www.youtube.com/@LoveBabbar" target="_blank" 
+     class="affiliate-btn" style="background:linear-gradient(90deg,#9333ea,#7e22ce)">
+    <i class="fa-brands fa-youtube"></i> Love Babbar (DSA + Web Dev)
+  </a>
+  <p class="small">Focus on Data Structures + Web Dev roadmap, great for interview preparation + coding rounds.</p>
+
+  <!-- Hitesh Choudhary -->
+  <a href="https://www.youtube.com/@HiteshChoudharydotcom" target="_blank" 
+     class="affiliate-btn" style="background:linear-gradient(90deg,#f97316,#ea580c)">
+    <i class="fa-brands fa-youtube"></i> Hitesh Choudhary (Full Stack & Projects)
+  </a>
+  <p class="small">Focuses on practical, real-world projects — Node.js, React, MERN, cloud & deployment.</p>
+</section>
+    <a class="btnBack" href="../index.html">
+      <i class="fa-solid fa-arrow-left"></i>⬅Back to Roadmaps</a>
+    
+    <a class="btn" href="learning.html">
+      <i class="fa-solid fa-arrow-right"></i>Learning paths</a>
+    
+   <!-- 🔹 Affiliate Button Example -->
+<a href="https://www.udemy.com/course/nodejs-the-complete-guide/?couponCode=AFFILIATECODE" 
+   target="_blank" class="affiliate-btn">
+   🚀 Learn Node.js – Udemy Course
+</a>  
+  </main>
+
+<script src="../js/fullstack.js">
+  
+</script>
+</body>
+</html>
